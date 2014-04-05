@@ -1,0 +1,28 @@
+<link rel="import" href="../components/polymer-jsonp/polymer-jsonp.html">
+<polymer-element name="x-ip" attributes="">
+    <template>
+        <style>
+            * {
+                box-sizing: border-box;    
+            }
+        </style>
+
+        <polymer-jsonp id="ajax" auto url="http://h3manth.com/ip.php?callback="></polymer-jsonp>
+
+        <div class="container">
+            <span id="ip">Your IP: {{ip}}</span>
+        </div>
+    </template>
+    <script>
+        Polymer('x-ip', {
+            ready: function () {
+                ip: '',
+                this.$.ajax.addEventListener('polymer-response',
+                        function (data) {
+                            this.ip = data.target.response.ip;
+                        }.bind(this)
+                );
+            }
+        });
+    </script>
+</polymer-element>
