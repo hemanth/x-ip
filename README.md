@@ -1,4 +1,4 @@
-#<x-ip>
+# &lt;x-ip&gt;
 
 Custom [Polymer](http://polymer-project.org/) element for displaying client's IP.
 
