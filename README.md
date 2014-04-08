@@ -20,7 +20,7 @@ Custom [Polymer](http://polymer-project.org/) element for displaying client's IP
 
 1. Import Custom Element:
 
-`<link rel="import" href="src/x-instagram.html">`
+`<link rel="import" href="src/x-ip.html">`
 
 2. Start using it!
 
