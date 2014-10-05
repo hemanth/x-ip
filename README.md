@@ -26,3 +26,4 @@ Custom [Polymer](http://polymer-project.org/) element for displaying client's IP
 
 `<x-ip><x-ip>`
 
+P.S: The code makes use of an external [API](https://github.com/hemanth/x-ip/blob/master/src/x-ip.html#L10) to fetch the data.
