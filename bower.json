@@ -1,11 +1,15 @@
 {
   "name": "x-ip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Hemanth.HM <hemanth.hm@gmail.com>"
   ],
   "description": "Custom Polymer element for dispalying client IP",
-  "keywords": ["web-components", "ip", "ploymer"],
+  "keywords": [
+    "web-components",
+    "ip",
+    "ploymer"
+  ],
   "main": "index.html",
   "license": "MIT",
   "homepage": "http://h3manth.com/",
